@@ -1,0 +1,78 @@
+# === Кэш и компилированные файлы Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Виртуальные окружения ===
+# Исключаем локальные папки зависимостей (весят много, легко пересоздаются)
+.venv/
+venv/
+ENV/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Логи, отчеты и тестирование ===
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# === Секреты и переменные окружения ===
+# Никогда не коммитьте файлы с паролями и API-ключами!
+.env
+.env.*
+.venv
+env.bak
+*.pot
+*.pyc
+
+# === Настройки IDE и редакторов ===
+# PyCharm / JetBrains
+.idea/
+# Visual Studio Code
+.vscode/
+# Прочие
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# === Базы данных (опционально) ===
+*.db
+*.sqlite3
+
+# === Инструменты типизации и статического анализа ===
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/

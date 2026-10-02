@@ -1,0 +1,10 @@
+# Core runtime dependencies for rc10_api
+numpy==2.4.0
+scipy==1.16.3
+pyserial>=3.5
+
+# Optional extras
+# pygame>=2.5.0  # required only for PS4Joystick
+# py3dcnx        # required only for SpaceMouseWrapper
+# tkinter / python3-tk must be installed from the OS package manager on Linux
+#   sudo apt-get install python3-tk
