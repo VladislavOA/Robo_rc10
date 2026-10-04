@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "units": {
+    "joints": "deg",
+    "xyz": "m",
+    "rpy": "deg"
+  },
+  "steps": []
+}
